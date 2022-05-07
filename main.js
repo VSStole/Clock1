@@ -4,9 +4,6 @@ const hours = document.querySelector('.hours');
 const minutes = document.querySelector('.minutes');
 const seconds = document.querySelector('.seconds');
 
-
- 
-
 const clock = setInterval(
     function time() {
         let dateNow = new Date();
