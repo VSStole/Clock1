@@ -13,7 +13,7 @@ const clock = setInterval(
         let hr = dateNow.getHours();
         let min = dateNow.getMinutes();
         let sec = dateNow.getSeconds();
-        let sess = dateNow.getHours();
+      
 
 
 
@@ -26,9 +26,7 @@ const clock = setInterval(
         }
         if (sec < 10) {
             sec = "0" + sec;
-        } if (sess < 10) {
-            sess = "0" + sess;
-        }
+        
 
         hours.textContent = hr;
         minutes.textContent = min;
