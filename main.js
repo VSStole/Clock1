@@ -14,10 +14,6 @@ const clock = setInterval(
         let min = dateNow.getMinutes();
         let sec = dateNow.getSeconds();
       
-
-
-
-
         if (hr < 10) {
             hr = "0" + hr;
         }
@@ -33,7 +29,6 @@ const clock = setInterval(
         minutes.textContent = min;
         seconds.textContent = sec;
     }, 1000
-
 );
 
 
