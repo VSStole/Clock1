@@ -26,6 +26,7 @@ const clock = setInterval(
         }
         if (sec < 10) {
             sec = "0" + sec;
+        }
         
 
         hours.textContent = hr;
